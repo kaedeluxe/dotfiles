@@ -9,12 +9,12 @@ $magenta: #9077e7;
 $teal: #51e6e6;
 $orange: #E79E64;
 
-$bg_color: transparentize(#1e1e2e, 0.2);
+$bg_color: transparentize(#1e1e2e, 0.1);
 $fg_color: #eee;
 $hover_fg: #f1f1f1;
 
 $wm_gaps: 22px;
-$radii: 9px;
+$radii: 20px;
 $spacing: 9px;
 
 $accent: lighten($blue, 20%);
@@ -32,7 +32,7 @@ $shadow: rgba(0, 0, 0, .6);
 $text_shadow: 2px 2px 2px $shadow;
 $icon_shadow: 2px 2px $shadow;
 
-$popover_radius: 15.299999999999999px;
+$popover_radius: 34px;
 $popover_border_color: transparentize($fg_color, 0.93);
 $popover_padding: 16.2px;
 $drop_shadow: true;
@@ -45,6 +45,6 @@ $mono_font: 'Mononoki Nerd Font', monospace;
 $wallpaper_fg: white;
 $shader_fg: white;
 
-$screen_corners: true;
+$screen_corners: false;
 $bar_style: normal;
 $layout: topbar;

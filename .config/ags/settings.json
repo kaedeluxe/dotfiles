@@ -1,8 +1,10 @@
 {
   "theme": "cutefish",
-  "bg_color": "transparentize(#1e1e2e, 0.2)",
-  "radii": 9,
+  "bg_color": "transparentize(#1e1e2e, 0.1)",
+  "radii": 20,
   "avatar": "/home/kae/Pictures/Pictures/1B6D47C1-2C21-4AF1-B0A4-130D2E31EC17.png",
   "wallpaper": "/home/kae/.wallpapers/threads.jpg",
-  "widget_opacity": 94
+  "widget_opacity": 94,
+  "screen_corners": false,
+  "wm_gaps": 22
 }
