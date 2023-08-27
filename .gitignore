@@ -68,14 +68,24 @@
 #     No.
 #
 # --- Add your entries below this line:
+!/.config/
+!/.config/nvim/
 !/.config/nvim/**
+!/.config/kitty/
 !/.config/kitty/**
+!/.config/neofetch/
 !/.config/neofetch/**
+!/.wallpapers/
 !/.wallpapers/**
+!/.config/hypr/
 !/.config/hypr/**
 !.zshrc
 !.p10k.zsh
+!/.config/ags/
 !/.config/ags/**
 !/.config/Cider/config.json
+!/.config/cava/
 !/.config/cava/**
 !.packagelist.txt
+!/.config/rofi/
+!/.config/rofi/**
