@@ -1,6 +1,6 @@
-# kae's dotfiles #
+# Kae's dotfiles
 
-### mainly keeping track of my nvim config ###
+### NeoVim
 
 ![1693125650](https://github.com/kaedeluxe/dotfiles/assets/139962400/b71bc457-1967-47f8-96a2-a61754d182a2)
 
@@ -17,8 +17,11 @@ and all the usuals:
 - syntax highlighting - [treesitter (github)](https://github.com/nvim-treesitter/nvim-treesitter)
 - language servers - [lspconfig (github)](https://github.com/neovim/nvim-lspconfig)
 
+Shoutout to [ecosse3](https://github.com/ecosse3) and his great EcoVim setup which I heavily borrowed from - [EcoVim (github)](https://github.com/ecosse3/nvim)
 
-### hyprland config ###
+___
+
+### Hyprland
 
 ![1692991019](https://github.com/kaedeluxe/dotfiles/assets/139962400/314874ea-7f6b-4bcb-a47d-730b178910d9)
 
