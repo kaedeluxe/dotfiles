@@ -1,0 +1,327 @@
+{
+  "general": {
+    "displayName": "Kae Holland",
+    "language": "en_US",
+    "keybindings": {
+      "searchBtn": [
+        "Command",
+        "F"
+      ],
+      "listenNowBtn": [
+        "Command",
+        "L"
+      ],
+      "browseBtn": [
+        "Command",
+        "B"
+      ],
+      "recentlyAddedBtn": [
+        "Command",
+        "1"
+      ],
+      "songsBtn": [
+        "Command",
+        "2"
+      ],
+      "albumsBtn": [
+        "Command",
+        "3"
+      ],
+      "artistsBtn": [
+        "Command",
+        "4"
+      ]
+    },
+    "collapsedItems": [],
+    "minimizeToTray": false
+  },
+  "behavior": {},
+  "audio": {
+    "volume": 1,
+    "volumeStep": 0.01,
+    "maxVolume": 1,
+    "volumeDisplaySPL": {
+      "enabled": false,
+      "calibration": 90
+    },
+    "equalizer": {
+      "preset": "default",
+      "frequencies": [
+        32,
+        63,
+        125,
+        250,
+        500,
+        1000,
+        2000,
+        4000,
+        8000,
+        16000
+      ],
+      "gain": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Q": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mix": 1,
+      "vibrantBass": 0,
+      "presets": [],
+      "userGenerated": false
+    },
+    "ciderAudio": {
+      "enabled": true,
+      "showInToolbar": false,
+      "ciderPPE": true,
+      "ciderPPE_value": "MAIKIWI",
+      "staticOptimizer": {
+        "state": false,
+        "lock": false
+      },
+      "lastNode": "n1",
+      "firstNode": "n1",
+      "opportunisticCorrection_state": "OFF",
+      "atmosphereRealizer1": false,
+      "atmosphereRealizer1_value": "NATURAL_STANDARD",
+      "atmosphereRealizer2": false,
+      "atmosphereRealizer2_value": "NATURAL_STANDARD",
+      "spatial": false,
+      "spatialProfile": "BPLK"
+    },
+    "normalization": true
+  },
+  "visual": {
+    "appearance": "dark",
+    "theme": null,
+    "styles": [],
+    "layoutType": "maverick",
+    "layoutView": "HHh LpR FFf",
+    "useAdaptiveColors": false,
+    "adaptiveColorPercent": 30,
+    "viewTransitions": true,
+    "hardwareAcceleration": "default",
+    "windowSize": [
+      1024,
+      640
+    ],
+    "windowPosition": [
+      0,
+      0
+    ],
+    "titleBarStyle": "default",
+    "artworkLoadingMethod": "eager",
+    "artworkBlurMap": {
+      "fpsLimit": 30
+    },
+    "backgroundBlurMap": {
+      "enabled": true,
+      "src": "",
+      "filter": {
+        "blur": 128,
+        "saturate": 200,
+        "brightness": 10,
+        "contrast": 100
+      }
+    },
+    "immersive": {
+      "useAnimatedBackground": true,
+      "useAnimatedArtwork": true,
+      "layoutType": "default",
+      "layoutTypePortrait": "default",
+      "maxBackgroundBrightness": 70,
+      "useBackgroundBPM": true
+    },
+    "editorialLayout": true,
+    "editorialPreference": [
+      "bannerUber",
+      "storeFlowcase",
+      "subscriptionHero",
+      "originalFlowcaseBrick"
+    ],
+    "customCSS": "",
+    "lyricSpeedMultiplier": 1,
+    "scalingFactor": 1,
+    "fonts": {
+      "main": "default",
+      "lyrics": "default"
+    },
+    "overlayDrawer": false,
+    "scrollbarType": "default",
+    "vibrancyMode": "mica",
+    "hiresImages": true,
+    "sweetener": {
+      "enabled": true,
+      "useImmersiveBG": false,
+      "immersive_bg_fps": 15,
+      "immersive_bg_filter": {
+        "blur": 128,
+        "saturate": 100,
+        "brightness": 100,
+        "contrast": 100
+      }
+    },
+    "ui_custom": {
+      "customAccentColor": true,
+      "customAccentColorValue": "#f5c2e7",
+      "customTintColor": true,
+      "customTintColorValue": "#1e1e2e",
+      "customTintColorRatio": "0"
+    },
+    "ultraWide": false
+  },
+  "ui": {
+    "chromeTopWidget": "search",
+    "leftDrawerOverlay": false,
+    "windowControlOverride": "default",
+    "mainMenuPosition": "left",
+    "forceMPWindowControls": true
+  },
+  "components": {
+    "AMProgressBar": {
+      "iOSStyle": true,
+      "useAccentColor": false
+    },
+    "AMVolumeSlider": {
+      "iOSStyle": true
+    },
+    "HeaderSearch": {
+      "NoRedirectOnSelect": false
+    }
+  },
+  "lyrics": {
+    "timeOffset": 0,
+    "thirdPartySources": true,
+    "scaleOnAny": false
+  },
+  "advanced": {
+    "flags": [],
+    "disableLogging": false,
+    "chromiumFlags": [],
+    "enableMediaItemInspect": false,
+    "switchPreset": "default",
+    "testing": {
+      "steamDeck": false,
+      "clientDB": false,
+      "flavorHack": false
+    },
+    "devTools": false
+  },
+  "connectivity": {
+    "discord": {
+      "enabled": true,
+      "client": "Cider-2",
+      "clearOnPause": true,
+      "showButtons": false,
+      "stateFormat": "by {artist}",
+      "detailsFormat": "{title}",
+      "timestampFormat": "remaining",
+      "buttons": [
+        {
+          "label": "",
+          "url": ""
+        },
+        {
+          "label": "",
+          "url": ""
+        }
+      ]
+    },
+    "lastfm": {
+      "loggedIn": false,
+      "credentials": {
+        "sessionKey": "",
+        "token": ""
+      },
+      "settings": {
+        "removeFeat": "both",
+        "scrobbleDelay": "50",
+        "removeExtension": false
+      }
+    }
+  },
+  "appleMusic": {
+    "enabled": true,
+    "drmSystem": "default",
+    "privateEnabled": false,
+    "animatedArtwork": true,
+    "showUserInfo": true,
+    "lyrics": {
+      "singLyrics": true
+    },
+    "libraryAlbums": {
+      "sortBy": "none",
+      "order": "asc"
+    },
+    "librarySongs": {
+      "sortBy": "none",
+      "order": "desc",
+      "showArtwork": true,
+      "queueLimit": 100
+    },
+    "libraryPlaylists": {
+      "sortBy": "none",
+      "order": "asc"
+    },
+    "home": {
+      "artwork": {
+        "useCustomArtwork": false,
+        "customArtwork": {}
+      },
+      "pinnedItems": [],
+      "pinnedItemsViewType": "list",
+      "sections": [
+        "pinnedItems",
+        "recentlyPlayed",
+        "yourArtistFeed",
+        "madeForYou",
+        "friendsListeningTo"
+      ],
+      "followedArtists": []
+    },
+    "useAMPComponents": {
+      "lyrics": false
+    }
+  },
+  "spotify": {
+    "enabled": false,
+    "playlists": [],
+    "relationships": [],
+    "loggedin": false,
+    "refreshToken": ""
+  },
+  "casting": {
+    "enabled": false
+  },
+  "connect": {
+    "analyticsLevel": 0,
+    "enabled": true,
+    "authed": false,
+    "sakiBot": {
+      "enabled": false
+    },
+    "remote": {
+      "enabled": false
+    }
+  },
+  "steam": {
+    "clearOnPause": true
+  }
+}

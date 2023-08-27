@@ -1,0 +1,14 @@
+2023/08/23-18:20:37.030 a941 Reusing MANIFEST /home/kae/.config/Cider/IndexedDB/http_localhost_9500.indexeddb.leveldb/MANIFEST-000001
+2023/08/23-18:20:37.030 a941 Recovering log #66
+2023/08/23-18:20:37.030 a941 Reusing old log /home/kae/.config/Cider/IndexedDB/http_localhost_9500.indexeddb.leveldb/000066.log 
+2023/08/23-18:20:37.030 a941 Delete type=2 #64
+2023/08/23-18:20:37.072 a940 Level-0 table #71: started
+2023/08/23-18:20:37.076 a940 Level-0 table #71: 1919 bytes OK
+2023/08/23-18:20:37.085 a940 Delete type=0 #66
+2023/08/23-18:20:37.085 a940 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x14\x00\x00\x05' @ 969 : 1
+2023/08/23-18:20:37.085 a940 Compacting 1@0 + 1@1 files
+2023/08/23-18:20:37.091 a940 Generated table #72@0: 198 keys, 3315 bytes
+2023/08/23-18:20:37.091 a940 Compacted 1@0 + 1@1 files => 3315 bytes
+2023/08/23-18:20:37.099 a940 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/23-18:20:37.099 a940 Delete type=2 #71
+2023/08/23-18:20:37.099 a940 Manual compaction at level-0 from '\x00\x14\x00\x00\x05' @ 969 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
