@@ -64,19 +64,19 @@ Widget.widgets['desktop'] = props => Widget({
             menuitem('Settings', 'org.gnome.Settings-symbolic', Theme.openSettings),
         ],
     }).popup_at_pointer(event),
-    child: {
-        type: 'box',
-        orientation: 'vertical',
-        vexpand: true,
-        hexpand: true,
-        connections: [[Theme, box => {
-            const [halign = 'center', valign = 'center', offset = 64] =
-                Theme.getSetting('desktop_clock')?.split(' ') || [];
-
-            box.halign = imports.gi.Gtk.Align[halign.toUpperCase()];
-            box.valign = imports.gi.Gtk.Align[valign.toUpperCase()];
-            box.setStyle(`margin: ${Number(offset)}px;`);
-        }]],
+//    child: {
+//        type: 'box',
+//        orientation: 'vertical',
+//        vexpand: true,
+//        hexpand: true,
+//        connections: [[Theme, box => {
+//            const [halign = 'center', valign = 'center', offset = 64] =
+//                Theme.getSetting('desktop_clock')?.split(' ') || [];
+//
+//            box.halign = imports.gi.Gtk.Align[halign.toUpperCase()];
+//            box.valign = imports.gi.Gtk.Align[valign.toUpperCase()];
+//            box.setStyle(`margin: ${Number(offset)}px;`);
+//        }]],
         // children: [
         //     {
         //         type: 'box',

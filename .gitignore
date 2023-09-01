@@ -89,3 +89,7 @@
 !.packagelist.txt
 !/.config/rofi/
 !/.config/rofi/**
+!/.config/swaylock/
+!/.config/swaylock/**
+!/.config/swayidle/
+!/.config/swayidle/**
